@@ -1,0 +1,32 @@
+# Runtime files
+instinct-last-run.txt
+session-data/
+sessions/
+projects/
+image-cache/
+cache/
+paste-cache/
+history.jsonl
+stats-cache.json
+mcp-needs-auth-cache.json
+shell-snapshots/
+file-history/
+downloads/
+tasks/
+telemetry/
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Plugin cache (managed by Claude Code)
+plugins/
+
+# Archived (not loaded, just stored)
+skills-archive/
+rules-archive/
+
+# OS
+.DS_Store
