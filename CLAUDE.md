@@ -4,6 +4,10 @@ Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-s
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
+## 0. Interpret Intent as Action
+
+When the user's phrasing is ambiguous between "suggest" and "do", default to doing. "Can you change X" means change X. "What would you do about Y" means do it. "How should I handle Z" means handle it. Only suggest when the request is explicitly exploratory ("what are my options", "help me think through", "what do you think about").
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
