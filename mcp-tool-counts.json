@@ -1,0 +1,26 @@
+{
+  "_note": "Exact tool counts per MCP server. Update this file when you add/remove servers.",
+  "_total_limit": 80,
+  "_last_counted": "2026-06-18",
+  "servers": {
+    "github": 26,
+    "firecrawl": 21,
+    "chrome-devtools-mcp": 22,
+    "playwright": 23,
+    "memory": 9,
+    "claude.ai Gmail": 12,
+    "claude.ai TPRM Gateway": 16,
+    "claude.ai Google Drive": 8,
+    "claude.ai Figma": 2,
+    "cloudflare-docs": 2,
+    "cloudflare-observability": 2,
+    "cloudflare-workers-bindings": 2,
+    "cloudflare-workers-builds": 2,
+    "context7": 2,
+    "supabase": 2,
+    "vercel": 2,
+    "sequential-thinking": 1,
+    "railway": 0,
+    "magic": 0
+  }
+}
