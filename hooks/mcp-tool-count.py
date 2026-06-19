@@ -36,11 +36,14 @@ def main():
 
     session_id = data.get("session_id", "unknown")
 
-    # Only fire once per session
+    # Only fire once per session — but ignore markers older than 12 hours
+    # (catches cases where Claude Code restarted mid-session and reused a marker)
     os.makedirs(MARKER_DIR, exist_ok=True)
     marker = os.path.join(MARKER_DIR, f"{session_id}.mcp-checked")
     if os.path.exists(marker):
-        sys.exit(0)
+        marker_age_hours = (time.time() - os.path.getmtime(marker)) / 3600
+        if marker_age_hours < 12:
+            sys.exit(0)
     open(marker, "w").close()
 
     # Load tool counts cache

@@ -5,10 +5,24 @@
   },
   "permissions": {
     "allow": [
-      "Bash(git *)",
-      "Bash(pnpm *)",
-      "Bash(node *)",
-      "Bash(npx *)"
+      "Bash(npm init:*)",
+      "Bash(node -e ':*)",
+      "Bash(sips -g pixelWidth -g pixelHeight www.variance.com_blog_announcing-our-raise.png)",
+      "Bash(npx -y puppeteer --help)",
+      "Bash(npm pkg *)",
+      "Bash(node shot.mjs shot1.png)",
+      "Bash(python3 -c ' *)",
+      "Bash(node shot.mjs shot2.png)",
+      "Bash(node shot.mjs shot3.png)",
+      "Bash(python3)",
+      "Bash(node shot.mjs shot5.png)",
+      "Bash(node shot.mjs shot6.png)",
+      "Bash(node shot.mjs shot8.png)",
+      "Bash(node shot.mjs 375 /tmp/mob.png)",
+      "Bash(node shot.mjs 768 /tmp/tab.png)",
+      "Bash(node shot.mjs 1280 /tmp/desk.png)",
+      "Bash(npx -y puppeteer screenshot index.html screenshot1.png --viewport=1728x960 --full-page)",
+      "Bash(node /Users/arjunasudani/Desktop/claude-code/screenshot.cjs)"
     ]
   },
   "model": "sonnet[1m]",
