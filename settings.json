@@ -25,7 +25,7 @@
       "Bash(node /Users/arjunasudani/Desktop/claude-code/screenshot.cjs)"
     ]
   },
-  "model": "sonnet[1m]",
+  "model": "opus[1m]",
   "hooks": {
     "SessionStart": [
       {
@@ -181,5 +181,6 @@
     }
   },
   "effortLevel": "medium",
-  "skipAutoPermissionPrompt": true
+  "skipAutoPermissionPrompt": true,
+  "tui": "fullscreen"
 }
